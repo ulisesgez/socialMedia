@@ -81,3 +81,11 @@ a{
     width: 44px;
     height: 44px;
 }
+footer{
+    width: 95%;
+    max-width: 788px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    margin-top: 15px;
+}
