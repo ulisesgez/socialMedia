@@ -1,7 +1,7 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(37, 37, 37);
     color: rgb(240, 240, 240);
     display: flex;
     align-items: center;
@@ -9,7 +9,7 @@ body{
     width: 100vw;
     font-family: Verdana, Tahoma, sans-serif;
 }
-header{
+header {
     width: 95%;
     max-width: 788px;
     display: flex;
@@ -17,18 +17,18 @@ header{
     padding: 12px;
     margin-top: 15px;
 }
-.share-button{
+.share-button {
     width: 40px;
     height: 40px;
     border-radius: 20px;
     background-color: rgb(240, 240, 240);
 }
-.share-button svg{
+.share-button svg {
     margin-left: 12px;
     margin-top: 10px;
     color: rgb(0, 0, 0);
 }
-.container{
+.container {
     width: 91%;
     max-width: 680px;
     margin: 10px;
@@ -36,56 +36,72 @@ header{
     flex-direction: column;
     align-items: center;
 }
-h1{
+h1 {
     font-size: 20px;
     margin-bottom: 30px;
 }
-a{
+a {
     text-decoration: none;
-    color: rgb(240, 240, 240);
+    color: rgb(37, 37, 37);
+    font-size: 1.1rem;
 }
-.tile{
+.tile {
     width: 100%;
-    background-color: rgb(37, 37, 37);
     margin: 7px;
     border-radius: 17px;
     display: flex;
     justify-content: space-between;
 }
-.tile:hover{
+.tile:hover {
     transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
     transform: scale(1.02);
 }
-.tile-share-button{
+.tile-share-button {
     margin: 8px;
     width: 40px;
     height: 40px;
     border-radius: 20px;
     background-color: rgb(52, 52, 52);
 }
-.tile-share-button svg{
+.tile-share-button svg {
     margin-left: 12px;
     margin-top: 10px;
 }
-.image-container{
-    height: 96px;
-    width: 96px;
-    border-radius: 50px;
+.image-container {
+    height: 7rem;
+    width: 7rem;
     overflow: hidden;
 }
-.image-container img{
+.image-container img {
     height: 100%;
+    border-radius: 50%;
 }
-.icon{
+.icon {
     margin: 4px 8px;
     width: 44px;
     height: 44px;
 }
-footer{
+footer {
     width: 95%;
     max-width: 788px;
     display: flex;
     justify-content: flex-end;
     padding: 12px;
     margin-top: 15px;
+}
+#facebook {
+    background-color: #7286D3;
+}
+#instagram {
+    background-color: #D9ACF5;
+}
+#tiktok {
+    background-color: #555555;
+    color: white;
+}
+#snapchat {
+    background-color: #FFE9AE;
+}
+#twitter {
+    background-color: #B8E8FC;
 }
