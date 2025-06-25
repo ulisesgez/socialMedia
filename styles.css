@@ -75,11 +75,11 @@ a{
 #instagram {
     background-color: #e1306c;
 }
-.blackFont {
-    color: black;
-}
 #x {
     background-color: #141414;
+}
+.blackFont {
+    color: black;
 }
 .image-container{
     height: 150px;
